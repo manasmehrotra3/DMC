@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cfenv": "^1.0.3",
     "express": "^4.13.3",
+    "cfenv": "^1.0.3",
     "http": "0.0.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
   }
 }
