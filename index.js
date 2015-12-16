@@ -4,7 +4,7 @@ var http = require('http');
 
 var app = express();
 
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.VCAP_APP_PORT || 8080);
 
 var jsonParser = bodyParser.json();
 
